@@ -1,17 +1,21 @@
-@charset "utf-8"
+@charset "utf-8";
 
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
 div{
     color: rgb(255, 255, 255);
     text-align: center;
     background-image: linear-gradient(to bottom, #3CD882,#195B38);
     
 }
-p#cima:hover{
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    
-    
-}
-h1.titulo {
 
+h2.titulo {
+    font-family: idroid;
+    background-color: ;
+   
 }    
+p#cima {
+    text-align: justify;
+}
