@@ -4,18 +4,22 @@
     font-family: idroid;
     src: url(pacote-projeto-d010/fontes/idroid.otf);
 }
-div{
+div.cima{
     color: rgb(255, 255, 255);
     text-align: center;
     background-image: linear-gradient(to bottom, #3CD882,#195B38);
     
 }
 
-h2.titulo {
+h1.titulo {
     font-family: idroid;
-    background-color: ;
+    color:#2C6847 ;
    
 }    
 p#cima {
     text-align: justify;
+}
+div.meio {
+    text-align: center ;
+    background-color: white;
 }
