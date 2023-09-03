@@ -23,11 +23,11 @@ main.meio {
   background-color: rgb(255, 255, 255);
   width: 800px;
   margin: auto;
+  padding: 20px;
 }
 h2.degrade {
-    background-image: linear-gradient(to right, #C5EBD5, white);
-    font-family: idroid;
-    color: #1D5F3B;
-    padding:
-    
+  background-image: linear-gradient(to right, #c5ebd5, white);
+  font-family: idroid;
+  color: #1d5f3b;
+  padding-left: 20px;
 }
