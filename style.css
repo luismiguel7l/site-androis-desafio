@@ -32,9 +32,14 @@ h2.degrade {
   padding-left: 20px;
 }
 .video {
-background-color: #195b38;
-padding: 20px;
+  background-color: #195b38;
+  padding: 20px;
 }
 .titulobaixo {
-  background-color: ;
+  background-color: #2fa866;
+  color: white;
+}
+.baixo {
+  background-color: #c5ebd6;
+  border-radius: 20px;
 }
