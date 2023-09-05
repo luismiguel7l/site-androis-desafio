@@ -1,5 +1,59 @@
 @charset "utf-8";
+@font-face {
+  font-family: android;
+  src: url(../pacote-projeto-d010/fontes/idroid.otf) format("opentype");
+  font-weight: normal;
+}
+
+:root {
+  --cor0: ##c5ebd6;
+  --cor1: #83elad;
+  --cor2: #3ddc84;
+  --cor4: #1a5c37;
+  --cor3: #2fa866;
+  --cor5: #063d;
+
+  --font-padra: arial, verdana, helvetica, sans-serif;
+  --font-destaque: "bebas neue", cursive;
+  --font-android: "android", cursive;
+}
 
 body {
-    background-color: #c5ebd6;
+  background-color: var(--cor0);
+  font-family: var(--font-padra);
+}
+
+header {
+  background-color: var(--cor4);
+}
+
+header > h1 {
+  color: white;
+  font-family: var(--font-destaque);
+}
+
+header > p {
+  color: white;
+}
+
+nav {
+  background-color: var(--cor5);
+}
+
+main {
+  background-color: white;
+}
+
+main > h1 {
+  color: #1a5c37;
+  font-family: var(--font-android);
+}
+
+main h2 {
+  font-family: var(--font-android);
+}
+
+footer {
+  background-color: var(--cor5);
+  color: white;
 }
