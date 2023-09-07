@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: idroid;
-  src: url(pacote-projeto-d010/fontes/idroid.otf);
+  src: url(pacote-projeto-d010/fontes/idroid.otf)format(opentype);
 }
 div.cima {
   color: rgb(255, 255, 255);
@@ -42,4 +42,8 @@ h2.degrade {
 .baixo {
   background-color: #c5ebd6;
   border-radius: 20px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
 }
